@@ -1,2 +1,5 @@
 Запуск в Сюиты командной строке:
     mvn test -DsuiteXmlFile=testng.xml
+
+TestNG parallel execution of tests, classes and suites:
+    https://howtodoinjava.com/testng/testng-executing-parallel-tests/
