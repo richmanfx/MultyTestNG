@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Multi" verbose="1" >
+
+
+    <test name="Multi" annotations="Group1">
+
+        <groups>
+            <define name="Group1"/>
+        </groups>
+
+        <classes>
+            <class name="ru.r5am.tests.MultiThreading" />
+        </classes>
+
+    </test>
+
+</suite>
