@@ -1,0 +1,2 @@
+Запуск в Сюиты командной строке:
+    mvn test -DsuiteXmlFile=testng.xml

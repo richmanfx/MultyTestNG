@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Multi" verbose="1" >
+<suite name="Multi" verbose="1" parallel="methods" thread-count="6">
 
 
-    <test name="Multi" annotations="Group1">
+    <test name="Multi" annotations="Group1" group-by-instances="true">
 
         <groups>
             <define name="Group1"/>
